@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/afd5d83caeb2416c86e8cba1528e0499)](https://app.codacy.com/manual/aladac/lazy-time_range?utm_source=github.com&utm_medium=referral&utm_content=aladac/lazy-time_range&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://www.travis-ci.org/aladac/lazy-time_range.svg?branch=master)](https://www.travis-ci.org/aladac/lazy-time_range)
 
 # Lazy::TimeRange
