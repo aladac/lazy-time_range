@@ -14,19 +14,18 @@ module Lazy
       super(@range.first, @range.last)
     end
 
-    def to_a(res: :day)
+    def to_a(**args)
+      super unless first.class == Time
+
+      res = args[:res] || :day
       raise TimeRangeError, "#{res} is not a correct iterator resolution" unless 1.respond_to?(res.to_sym)
 
-      if first.class == Time
-        time = first
-        output = []
-        while (time += 1.send(res)) <= last
-          output.push time
-        end
-        output
-      else
-        super
+      time = first
+      output = []
+      while (time += 1.send(res)) <= last
+        output.push time
       end
+      output
     end
   end
 end
