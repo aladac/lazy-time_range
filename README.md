@@ -1,4 +1,4 @@
-![](https://api.travis-ci.org/aladac/lazy-time_range.svg)
+[![Build Status](https://www.travis-ci.org/aladac/lazy-time_range.svg?branch=master)](https://www.travis-ci.org/aladac/lazy-time_range)
 
 # Lazy::TimeRange
 
